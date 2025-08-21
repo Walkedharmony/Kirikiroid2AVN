@@ -30,7 +30,7 @@ Roadmap :
   - [x] ci in github action to automaticly build
         
 - Updates that I have done after kirikiroid2Yuri
-  - [x] Adding plugins to the roadmap
+  - [x] Adding plugins to the roadmap from [here](https://github.com/2468785842/krkr2)
   - [x] Fixed type definition conflicts in GdiPlus
 
 ## 1. usage  
