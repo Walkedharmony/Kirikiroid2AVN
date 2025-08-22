@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(krkr2yuri)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(KRKR2CORE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/src/core)
 set(KRKR2PLUGIN_PATH ${CMAKE_CURRENT_SOURCE_DIR}/src/plugins)
 set(COCOS2DX_PATH ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/port/cocos2d-x)

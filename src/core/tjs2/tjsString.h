@@ -14,10 +14,16 @@
 
 #include <string>
 #include "tjsConfig.h"
+#include <string>
+#include <sstream>
+#include <codecvt>
+#include <locale>
 #ifdef TJS_SUPPORT_VCL
 	#include <vcl.h>
 #endif
 #include "tjsVariantString.h"
+
+
 
 namespace TJS
 {

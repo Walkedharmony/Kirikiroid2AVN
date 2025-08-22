@@ -9,7 +9,11 @@ file(GLOB KR2KR2PLUGIN_CODE
     ${KRKR2PLUGIN_PATH}/*.cpp
 
 )
-list(APPEND KR2KR2PLUGIN_CODE ${KRKR2PLUGIN_PATH}/ncbind/ncbind.cpp)
+list(APPEND KR2KR2PLUGIN_CODE
+        ${KRKR2PLUGIN_PATH}/ncbind/ncbind.cpp
+        ${KRKR2PLUGIN_PATH}/textrender.cpp
+
+)
 
 # make krkr2plugin
 add_library(${PROJECT_NAME} STATIC ${KR2KR2PLUGIN_CODE})
